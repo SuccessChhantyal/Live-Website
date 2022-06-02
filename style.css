@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.nav
+{
+    height: 50px;
+    width: 100%;
+    background-color:darkgreen;
+    position: sticky;
+    top: 1px;
+    z-index: 4;
+}
+.nav ul{
+    float: right;
+    margin-right: 30px;
+}
+.nav ul li{
+    list-style: none;
+    margin 0 20px;
+    display: inline-block;
+    line-height: 80px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 0px 13px;
+    font-family: cursive;
+    position: relative;
+    top: -16px;
+    right: 75vh;
+    transition: 0.5s;
+}
+.nav ul li a:hover{
+    background: white;
+    color:black;
+    border-radius: 20px;
+}
+.First
+{
+    position: relative;
+    top: 30vh;
+    left: 80vh;
+}
+.First h1
+{
+    font-size: 10vh;
+}
+section h1
+{
+    position: relative;
+    top: 80vh;
+}
+section img
+{
+    height: auto;
+    width: 45%;
+    display: inline;
+    position: relative;
+    top: 90vh;
+}
